@@ -27,6 +27,7 @@ public:
                 }
             }
             nums.erase(nums.begin()+i+1,nums.end());
-            return nums.size();
+            int a=nums.size();
+            return a;
     }
 };
